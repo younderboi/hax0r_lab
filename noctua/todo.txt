@@ -1,0 +1,14 @@
+- bloodhound
+- ligolo-ng
+- firefox
+  - foxyproxy
+  - wappalyzer
+- snmpcheck
+- printspoofer binaries and potatoes
+- kerbrute - https://github.com/ropnop/kerbrute
+- rubeus - https://github.com/GhostPack/Rubeus
+- mimikatz
+- RunasCS (put my binary up somewhere's for download)
+- ditto for Potatoes...
+- start integrating evil-winnie into the mix <3
+- seclists

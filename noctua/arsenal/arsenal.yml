@@ -1,0 +1,30 @@
+- name: Arsenal Setup
+  hosts: boxknox
+  tasks:
+    - name: Create Directory Scaffolding
+      import_tasks: create_scaffolding.yml
+
+    - name: Cracking Tools
+      import_tasks: ./cracking/cracking.yml
+
+    - name: AD tooling
+      import_tasks: ./active_directory/active_directory.yml
+
+    - name: WAPP
+      import_tasks: ./wapp/wapp.yml
+
+    - name: Recon
+      import_tasks: ./recon/recon.yml
+
+    - name: Import C2
+      import_tasks: ./c2/c2.yml
+
+    - name: Import databases
+      import_tasks: databases.yml
+
+    - name: Import Initial Access
+      import_tasks: ./initial_access/initial_access.yml
+
+    # === Tool dumpster ===
+    - name: Tool dumpster
+      import_tasks: tool_dumpster.yml
